@@ -11,9 +11,9 @@ var h = can.height = can1.height = document.documentElement.clientHeight;
 // User defined variables that needs to be tuned
 x0 = w / 2;
 y0 = h / 2;
-r = [100 * Math.random(), 100 * Math.random()];
-p = [Math.random() * Math.PI, Math.random() * Math.PI];
-f = [2 * Math.random(), 2 * Math.random()]
+r = [50 + 50 * Math.random(), 50 + 50 * Math.random()];
+p = [Math.random() * 2 * Math.PI, Math.random() * 2 * Math.PI];
+f = [1 + Math.random(), 1 + Math.random()]
 
 // Animation parameter
 t = 0;
